@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="15dp"
+            android:layout_margin="5dp">
+            <!--    <com.android.volley.toolbox.NetworkImageView
+                    android:layout_width="95dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/home_card_img"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:padding="4dp"
+                    /> -->
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/frstimg"
+
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <ImageView
+                    android:layout_marginTop="16dp"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:id="@+id/home_card_img"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:paddingRight="4dp"
+                    android:elevation="15dp"
+                    />
+
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Heading"
+                android:id="@+id/home_card_heading"
+                android:layout_marginTop="12dp"
+                android:paddingLeft="5dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_alignTop="@+id/frstimg"
+                android:layout_toRightOf="@+id/frstimg"
+                android:layout_toEndOf="@+id/frstimg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/text"
+                android:id="@+id/home_card_timestamp"
+                android:paddingLeft="5dp"
+                android:layout_below="@+id/home_card_heading"
+                android:layout_alignLeft="@+id/home_card_heading"
+                android:layout_alignStart="@+id/home_card_heading"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="TAG"
+                android:paddingLeft="5dp"
+                android:id="@+id/textView"
+                android:textColor="#2962FF"
+                android:textSize="15sp"
+                android:layout_below="@id/home_card_timestamp"
+                android:layout_alignLeft="@+id/home_card_timestamp"
+                android:layout_alignStart="@+id/home_card_timestamp"
+                android:layout_marginTop="4dp"
+                />
+
+
+        </RelativeLayout>
+
+
+
+</LinearLayout>

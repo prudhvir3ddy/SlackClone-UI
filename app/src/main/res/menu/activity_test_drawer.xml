@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+<item android:title="HOME"
+    />
+    <item android:title="CHANNELS"
+        >
+        <menu>
+            <item
+                android:title="#  ama_official" />
+            <item
+                android:title="#  ama_sessions" />
+            <item
+                android:title="#  announcements" />
+            <item
+                android:title="#  beginner_queries" />
+            <item
+                android:title="#  collab_prjcts" />
+            <item
+                android:title="#  git_github" />
+            <item
+                android:title="#  gsoc" />
+            <item
+                android:title="#  hyderabad" />
+            <item
+                android:title="#  lesson02_projsunshine" />
+            <item
+                android:title="#  lesson03_internet" />
+            <item
+                android:title="#  lesson04_recyclerview" />
+            <item
+                android:title="#  lesson05_intents" />
+            <item
+                android:title="#  lesson06_lifecycle" />
+            <item
+                android:title="#  lesson07_preferences"
+                />
+            <item
+                android:title="#  lesson08_sqlite" />
+            <item
+                android:title="#  lesson09_contentprvd1" />
+            <item
+                android:title="#  lesson10_contentprvd2" />
+            <item
+                android:title="#  lesson11_backg_tasks" />
+            <item
+                android:title="#  lesson12_complete_ui"/>
+            <item
+                android:title="#  lesson12_polish_ui"/>
+            <item
+                android:title="#  live_help" />
+            <item
+                android:title="#  live_help_official" />
+            <item
+                android:title="#  meet_study_buddies" />
+            <item
+                android:title="#  quizzes"/>
+            <item
+                android:title="#  random"
+                />
+            <item
+                android:title="#  share_ideas" />
+            <item
+                android:title="#  showcase" />
+            <item
+                android:title="#  slack_help" />
+            <item
+                android:title="#  channel_request"/>
+            <item
+                android:title="#  introductions"/>
+
+        </menu>
+    </item>
+
+</menu>
